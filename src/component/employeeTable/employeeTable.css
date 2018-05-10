@@ -1,0 +1,58 @@
+
+.employeeTable{
+	margin-bottom: 35px;
+}
+.header .col{
+	display: inline-block;
+	width: 250px;
+	color: #333;
+	padding: 4px 10px;
+	text-transform: uppercase;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.header .col:last-child{
+	border-right: 1px solid #ccc;
+}
+.tableRow .col{
+	display: inline-block;
+	width: 250px;
+	padding: 4px 10px;
+	color: #999;	
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+.tableRow .col:last-child{
+	border-right: 1px solid #ccc;
+}
+.tableRow:last-child .col{
+	border-bottom: 1px solid #ccc;
+}
+
+.showing-records{
+	display: inline-block;
+	float: left;
+}
+
+
+.paging-navigation{
+	float: right;
+}
+.paging-navigation .prev,
+.paging-navigation .next{
+	padding: 4px 6px;
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+.paging-navigation .prev.disable,
+.paging-navigation .next.disable{
+	pointer-events: none;
+	background-color: #ccc;
+}
+.paging-navigation .pageNo{
+	padding: 4px 20px;
+	display: inline-block;
+	float: left;
+}
